@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaServer", "mediaServer\
 		{48AF4C98-619E-4A68-9AD7-26E425FDAE87} = {48AF4C98-619E-4A68-9AD7-26E425FDAE87}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxyServer", "proxyServer\proxyServer.vcxproj", "{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -67,6 +69,14 @@ Global
 		{A60440DF-3260-4B2D-B95B-A41D18B8FE2D}.Release|x64.Build.0 = Release|x64
 		{A60440DF-3260-4B2D-B95B-A41D18B8FE2D}.Release|x86.ActiveCfg = Release|Win32
 		{A60440DF-3260-4B2D-B95B-A41D18B8FE2D}.Release|x86.Build.0 = Release|Win32
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Debug|x64.ActiveCfg = Debug|x64
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Debug|x64.Build.0 = Debug|x64
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Debug|x86.Build.0 = Debug|Win32
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Release|x64.ActiveCfg = Release|x64
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Release|x64.Build.0 = Release|x64
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Release|x86.ActiveCfg = Release|Win32
+		{59C53EF8-6A0D-4C04-BA8B-B8CE428015A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
