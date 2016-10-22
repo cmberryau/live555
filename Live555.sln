@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxyServer", "proxyServer\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testRTSPClient", "testRTSPClient\testRTSPClient.vcxproj", "{4DBE4E40-8F8C-49B4-ABCD-603162BCE08F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testProgs", "testProgs", "{07F59D5B-7988-48D7-8887-213840C27849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -90,5 +92,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DBE4E40-8F8C-49B4-ABCD-603162BCE08F} = {07F59D5B-7988-48D7-8887-213840C27849}
 	EndGlobalSection
 EndGlobal
